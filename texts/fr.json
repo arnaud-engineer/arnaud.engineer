@@ -1,0 +1,89 @@
+{
+	"header":{
+		"banner":"à la recherche d'un nouveau poste :-)",
+		"banner_url":"openPage('cv.html');",
+		"resume":"cv",
+		"contact":"contact"
+	},
+
+	"footer":{
+		"elsewhere":"voir aussi",
+		"contact":"contact",
+		"about":"à propos",
+		"legal":"mentions légales",
+		"sources_verb":"voir ",
+		"sources_link_name":"sources",
+		"licence_verb":"sous ",
+		"licence_link_name":"mozilla public licence"
+	},
+
+	"home":{
+		"doc_title":"ingénieur logiciel \"couteau suisse\"",
+		"title":"ingénieur logiciel \"couteau suisse\"",
+			"p1":"Bonjour, je suis Arnaud Dupont, un ingénieur logiciel spécialisé en dev full stack et gestion de projets (validation, support et pilotage).",
+			"p2":" Je peux intervenir à toutes les étapes de vos missions : du recueil des besoins au recettage, dans des PME comme des grands groupes.",
+			"p3":" J'aime tenter de nouvelles choses. N'hésitez donc pas à me contacter !",
+			"elsewhere":"Je fais aussi des expériences cools sur",
+		"open":"disponible pour",
+			"hire":"embauche",
+			"prestations":"prestations",
+			"volunteering":"bénévolat",
+			"discuss":"échanger",
+		"skills":"principales compétences",
+			"conception":"conception",
+			"dev":"dev full stack",
+			"projects":"gestion de projets",
+			"excel":"excel/vba",
+			"validation":"validation",
+			"support":"support",
+			"doc":"documentation",
+			"afterwork":"planifier l'afterwork",
+		"stack":"stack",
+		"second_stack":"j'utilise aussi",
+		"trust":"ils me font confiance",
+		"further":"pour plus de détails, vous pouvez consulter mon ",
+			"further_resume":"cv",
+			"further_next":" ou parcourir mes ",
+			"further_projects":"projets personnels"
+	},
+
+	"resume":{
+		"doc_title":"cv",
+		"title":"curriculum vitae",
+		"p":"Voici mon cv et mon dossier de compétences techniques. Ils ne comprennent que les expériences les plus signifiantes, aussi en cas de doutes, n'hésitez pas à me contacter directement : je ne me mords pas (trop).",
+		"resume":"curriculum vitae",
+		"portfolio":"dossier de compétences",
+		"download":"télécharger",
+		"print":"imprimer",
+		"resume_pdf":"assets/CV_Arnaud_Dupont.pdf",
+		"resume_img":"assets/CV_Arnaud_Dupont.jpg",
+		"portfolio_pdf":"assets/DCT_Arnaud_Dupont.pdf"
+	},
+
+	"contact":{
+		"doc_title":"contact",
+		"title":"Pour me contacter",
+		"job":"junior software engineer",
+		"elsewhere":"moi ailleurs"
+	},
+
+	"legal":{
+		"doc_title":"mentions légales",
+		"editor":"Éditeur",
+		"host":"Hébergeur",
+		"policy":"Utilisation de données personnelles",
+		"p1":"Ce site ne traite et collecte aucune donnée personnelle (pas de cookies). En cas de question, vous pouvez joindre l'éditeur.",
+		"p2":"Pour rappel, en cas de collecte ou de traitement abusif de vos données personnelles, vous avez le droit de déposer une plainte auprès de la Cnil."
+	}
+
+
+
+
+
+
+
+
+
+
+
+}

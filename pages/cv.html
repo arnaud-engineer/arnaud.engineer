@@ -1,0 +1,40 @@
+<section class="cv-page">
+
+	<div class="frame-xs" id="pdf-tools">
+		<div class="pdf-links">
+			<div class="pdf-links-container">
+				<div class="element">
+					<h2>{{ resume.resume }}</h2>
+					<a class="pdf-link" v-bind:href="resume.resume_pdf">
+						<img class="pdf-link-icon" src="assets/icons/download.svg">&nbsp;&nbsp;&nbsp;{{ resume.download }}
+					</a>
+					<a class="pdf-link" onclick="printResume();">
+						<img class="pdf-link-icon" src="assets/icons/print.svg">&nbsp;&nbsp;&nbsp;{{ resume.print }}
+					</a>
+				</div>
+				<div class="element">
+					<h2>{{ resume.portfolio }}</h2>
+					<a class="pdf-link" v-bind:href="resume.portfolio_pdf">
+						<img class="pdf-link-icon" src="assets/icons/download.svg">&nbsp;&nbsp;&nbsp;{{ resume.download }}
+					</a>
+					<a class="pdf-link" onclick="printPortfolio();">
+						<img class="pdf-link-icon" src="assets/icons/print.svg">&nbsp;&nbsp;&nbsp;{{ resume.print }}
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="pdf-view">
+		<h2>{{ resume.title }}</h2>
+
+		<p>{{ resume.p }}</p>
+		<!--
+		<object id="pdf" data="CV_Arnaud.pdf" type="application/pdf">
+			<embed src="assets/CV_Arnaud.pdf" type="application/pdf" id="innerPDF" />
+		</object>
+		-->
+		<img id="pdf" v-bind:src="resume.resume_img">
+	</div>
+
+</section>

@@ -1,35 +1,127 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
+	<head>
+		<!-- ENCODAGE -->
+			<meta charset="utf-8" />
+		<!-- PAGE INFO -->
+			<title>arnaud.engineer</title>
+		<!-- RESPONSIVENESS -->
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<!-- CSS -->
+			<link rel="stylesheet" href="style.css"/>
+			<!--<link rel="stylesheet" type="text/css" href="print.css" media="print">-->
+			<!--<link rel="stylesheet" type="text/css" href="print.min.css" media="print">-->
+			<link rel="stylesheet" type="text/css" href="lib/print.min.css">
+		<!-- JavaScript (ORDER : https://support.freshmarketer.com/support/solutions/articles/50000001426-synchronous-and-asynchronous-script-execution )-->
+			<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+			<script src="https://printjs-4de6.kxcdn.com/print.min.js"></script>
+			<script src="script.js"></script>
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
+			<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet"> 
 
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-	<title>arnaud.engineer</title>
-	<link rel="stylesheet" href="design.css" media="screen" />
-	<script type="text/javascript" src="main.js"></script>
-</head>
 
-<body>
+			<link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+			<link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+			<link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+			<link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+			<link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+			<link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+			<link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+			<link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+			<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+			<link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+			<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+			<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+			<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+			<link rel="manifest" href="assets/favicon/manifest.json">
+			<meta name="msapplication-TileColor" content="#ffffff">
+			<meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+			<meta name="theme-color" content="#ffffff">
+	</head>
 
-    <header>
-        <div id="title">
-            <h1>Arnaud Dupont</h1>
-        </div>
+	<body>
+		<div id="app">
+			<noscript>JavaScript is currently disabled on your browser, to enhanced your browsing experience you should activate it : <a href="https://www.enable-javascript.com">see how</a></noscript>
 
-        <div id="menu">
-            <div id="buttons">
-                <span class="button" id="button1">CV</span>
-                <span class="button" id="button2">Contact</span>
-                <!--<span class="button" id="button1">Bio</span>
-                <span class="button" id="button3">Projets</span>-->
-            </div>
-        </div>
-    </header>
+			<header id="pageHeader">
 
-    <div id="content">
-    		<iframe id="iframepage" src="cv.html"></iframe>
-    </div>
+				<div id="alert-container">
+					<div id="alert">
+						<a id="alert-text" v-bind:onclick="header.banner_url">
+							{{ header.banner }}
+						</a>
+					</div>
+				</div>
 
-</body>
+				<div id="header-container">
+					<div id="header-home-button">
+						<a id="home-button" onclick="openPage('home.html');">
+							<img id="site-logo" src="assets/logo/arnaud-engineer.svg"/>
+							<h1 id="site-logo-text">&nbsp;arnaud<br/>.engineer</h1>
+						</a>
+					</div>
 
+					<div id="header-buttons-container">
+						<div id="header-buttons">
+							<!--<a class="header-button" href="blog.html">blog</a>-->
+							<a class="header-button" onclick="openPage('cv.html');">{{ header.resume }}</a>
+							<!--<a class="header-button" href="prestations.html">prestations</a>-->
+							<!--<a class="header-button" onclick="openPage('projects.html');">projects</a>-->
+							<a class="header-button" href="https://github.com/arnaud-engineer" target="_blank">github</a>
+							<!--<a class="header-button" href="https://arnaud.cool" target="_blank">.cool</a>-->
+							<a class="header-button" onclick="openPage('contact.html');">{{ header.contact }}</a>
+						</div>
+					</div>
+				</div>
+
+			</header>
+
+			<!-- ------------------------ MAIN CONTENT ------------------------ -->
+
+			<div id="loading-content"></div>
+
+			<main></main>
+
+			<!-- -------------------------------------------------------------- -->
+
+			<footer>
+				<div id="footer-container">
+					<section id="elsewhere">
+						<h2>{{ footer.elsewhere }}</h2>
+						<ul>
+							<li><a href="https://arnaud.cool" target="_blank">arnaud.cool</a></li>
+							<li><a href="https://github.com/arnaud-engineer" target="_blank">github</a></li>
+						</ul>
+						
+					</section>
+
+					<section id="contact-me">
+						<h2>{{ footer.contact }}</h2>
+						<ul>
+							<li><a href="mailto:contact@arnaud.engineer">contact@arnaud.engineer</a></li>
+							<li><a href="https://www.linkedin.com/in/arnaud-engineer/" target="_blank">linkedin</a></li>
+						</ul>
+						
+					</section>
+
+					<section id="other-mentions">
+						<h2>{{ footer.about }}</h2>
+						<ul>
+							<li><a onclick="changeLanguage('EN');">EN</a> | <a onclick="changeLanguage('FR');">FR</a></li>
+							<li><a onclick="openPage('legal.html');">{{ footer.legal }}</a></li>
+						</ul>
+						
+					</section>
+
+					<section id="ownership">
+						<img src="assets/logo/copyleft.svg" class="copyleft"/> arnaud dupont<br/>
+						{{ footer.sources_verb }}<a href="https://github.com/arnaud-engineer/arnaud.engineer" target="_blank">{{ footer.sources_link_name }}</a><br/>
+						{{ footer.licence_verb }} <a href="https://www.mozilla.org/media/MPL/2.0/index.48a3fe23ed13.txt" target="_blank">{{ footer.licence_link_name }}</a>
+					</section>
+				</div>
+			</footer>
+		</div>
+	</body>
 </html>

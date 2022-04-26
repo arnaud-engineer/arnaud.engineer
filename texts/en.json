@@ -1,0 +1,89 @@
+{
+	"header":{
+		"banner":"currently looking for a new position :-)",
+		"banner_url":"openPage('cv.html');",
+		"resume":"resume",
+		"contact":"contact"
+	},
+
+	"footer":{
+		"elsewhere":"me elsewhere",
+		"contact":"contact",
+		"about":"about",
+		"legal":"legal mentions",
+		"sources_verb":"see ",
+		"sources_link_name":"sources",
+		"licence_verb":"under ",
+		"licence_link_name":"mozilla public licence"
+	},
+
+	"home":{
+		"doc_title":"\"swiss army knife\" software engineer",
+		"title":"\"swiss army knife\" software engineer",
+			"p1":"Hello, I am Arnaud Dupont, a french software engineer specialized in full-stack dev and project gestion (validation, support and management).",
+			"p2":"I can work at all the stages of your projects from the requirements analysis to the validation phase, just as well in small or large companies.",
+			"p3":"I am always looking for new projects, in or out my expertise field. Feel free to contact me for position offers, prestations needs or just a hand.",
+			"elsewhere":"I also work on cool stuffs at",
+		"open":"available for",
+			"hire":"hire",
+			"prestations":"prestations",
+			"volunteering":"volunteering",
+			"discuss":"discuss",
+		"skills":"main skills",
+			"conception":"conception",
+			"dev":"full-stack dev",
+			"projects":"project management",
+			"excel":"excel/vba",
+			"validation":"validation",
+			"support":"support",
+			"doc":"documentation",
+			"afterwork":"afterwork planning",
+		"stack":"main stack",
+		"second_stack":"I also use",
+		"trust":"they trust me",
+		"further":"for further details, you may consult my ",
+			"further_resume":"resume",
+			"further_next":" or browse through my ",
+			"further_projects":"side projects"
+	},
+
+	"resume":{
+		"doc_title":"resume",
+		"title":"resume",
+		"p":"Here are my resume and my portfolio of competences.  Those includes only my most significant projects. If you have any doubts, do not hesitate to contact me : I don't bite (unduly).",
+		"resume":"resume",
+		"portfolio":"portfolio of competences",
+		"download":"download",
+		"print":"print",
+		"resume_pdf":"assets/CV_Arnaud_Dupont.pdf",
+		"resume_img":"assets/CV_Arnaud_Dupont.jpg",
+		"portfolio_pdf":"assets/DCT_Arnaud_Dupont.pdf"
+	},
+
+	"contact":{
+		"doc_title":"contact",
+		"title":"Contact me",
+		"job":"junior software engineer",
+		"elsewhere":"me elsewhere"
+	},
+
+	"legal":{
+		"doc_title":"legal mentions",
+		"editor":"Editor",
+		"host":"Host",
+		"policy":"Personal data policy",
+		"p1":"This website does not use or collect any personnal data (no cookies). If you have any questions, you may contact the editor.",
+		"p2":"As a remider, in case of abusive collect or use of your personnal data, you have rights and can complain to the local autorities (Cnil)."
+	}
+
+
+
+
+
+
+
+
+
+
+
+}

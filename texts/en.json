@@ -18,12 +18,12 @@
 	},
 
 	"home":{
-		"doc_title":"\"swiss army knife\" software engineer",
-		"title":"\"swiss army knife\" software engineer",
-			"p1":"Hello, I am Arnaud Dupont, a french software engineer specialized in full-stack dev and project gestion (validation, support and management).",
-			"p2":"I can work at all the stages of your projects from the requirements analysis to the validation phase, just as well in small or large companies.",
-			"p3":"I am always looking for new projects, in or out my expertise field. Feel free to contact me for position offers, prestations needs or just a hand.",
-			"elsewhere":"I also work on cool stuffs at",
+		"doc_title":"\"Swiss army knife\" software engineer",
+		"title":"\"Swiss army knife\" software engineer",
+			"p1":"Hello, I am Arnaud Dupont, a French software engineer working on full-stack dev, validation-support and project management.",
+			"p2":"I can work at all the stages from the requirements analysis to the validation phase, just as well in small or large companies.",
+			"p3":"I am always looking for new projects, in or out my expertise field. Feel free to contact me for position offers, prestation needs or just a hand.",
+			"elsewhere":"I also work on cool stuff at",
 		"open":"available for",
 			"hire":"hire",
 			"prestations":"prestations",
@@ -50,14 +50,14 @@
 	"resume":{
 		"doc_title":"resume",
 		"title":"resume",
-		"p":"Here are my resume and my portfolio of competences.  Those includes only my most significant projects. If you have any doubts, do not hesitate to contact me : I don't bite (unduly).",
+		"p":"Here are my resume and my portfolio of competences.  Those include only my most significant projects. If you have any doubts, do not hesitate to contact me : I don't bite (unduly).",
 		"resume":"resume",
 		"portfolio":"portfolio of competences",
 		"download":"download",
 		"print":"print",
-		"resume_pdf":"assets/CV_Arnaud_Dupont.pdf",
-		"resume_img":"assets/CV_Arnaud_Dupont.jpg",
-		"portfolio_pdf":"assets/DCT_Arnaud_Dupont.pdf"
+		"resume_pdf":"assets/documents/Arnaud_Dupont_Resume_EN.pdf",
+		"resume_img":"assets/documents/Arnaud_Dupont_Resume_EN.jpg",
+		"portfolio_pdf":"assets/documents/Arnaud_Dupont_Competences_Portfolio_EN.pdf"
 	},
 
 	"contact":{

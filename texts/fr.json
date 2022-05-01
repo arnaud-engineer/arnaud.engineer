@@ -55,9 +55,9 @@
 		"portfolio":"dossier de compétences",
 		"download":"télécharger",
 		"print":"imprimer",
-		"resume_pdf":"assets/CV_Arnaud_Dupont.pdf",
-		"resume_img":"assets/CV_Arnaud_Dupont.jpg",
-		"portfolio_pdf":"assets/DCT_Arnaud_Dupont.pdf"
+		"resume_pdf":"assets/documents/Arnaud_Dupont_CV_FR.pdf",
+		"resume_img":"assets/documents/Arnaud_Dupont_CV_FR.jpg",
+		"portfolio_pdf":"assets/documents/Arnaud_Dupont_Dossier_Compétences_FR.pdf"
 	},
 
 	"contact":{

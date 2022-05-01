@@ -102,6 +102,8 @@ function reloadApp(pageContentUrl) {
 	});
 	document.getElementsByTagName("html")[0].innerHTML = document.getElementById("loading-content").innerHTML;
 	document.getElementById("loading-content").innerHTML = "";
+
+	window.scrollTo(-1000, -1000);
 }
 
 
